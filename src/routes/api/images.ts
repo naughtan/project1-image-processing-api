@@ -1,12 +1,3 @@
-// import express from 'express';
-// const images = express.Router();
-
-// images.get('/', (req, res) => {
-//   res.send('images route');
-// });
-
-// export default images;
-
 import express, { Request, Response } from 'express';
 import fs from 'fs/promises';
 import path from 'path';
